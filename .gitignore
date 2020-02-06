@@ -1,0 +1,5 @@
+*.psd
+*-assets
+*.docx
+node_modules
+package-lock.json

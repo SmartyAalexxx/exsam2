@@ -120,5 +120,27 @@
         });
       }
 
+      ;
+      /// nav__item--active
+      // $(".nav__item--active").toggleClass(function (){
+
+      //   if ($(this).parent().is(".nav__item")) {
+            
+      
+
+      //       }
+      //     }) 
+          
+          $(".nav__item").hover(
+            function() {
+              $( this ).addClass( "nav__item--active" );
+            }, 
+            function() {
+              $( this ).removeClass( "nav__item--active" );
+            }
+            // function(){
+            //   console.log("Hover!")
+            // }
+          )
 // })
     

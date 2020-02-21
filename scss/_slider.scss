@@ -99,6 +99,11 @@
     display: none;
 }
 
+
+// customs
+// start
+// here
+
 .header .slick-dots{
     position: absolute;
     display: inline-block;
@@ -113,7 +118,6 @@ li button{display: none;}
 header, .news {
     .slick-dots li{
         list-style: none;
-        // display: inline-block;
         width: 5px;
         height: 5px;
         padding: 5px 5px;
@@ -122,11 +126,8 @@ header, .news {
         border-radius: 50%;
         background-color: transparent;
     }
-    .slick-dots .slick-active{ background-color: #fff;  
-    }
-// .news .slick-dots{
-//    
-// }
+    .slick-dots .slick-active{ 
+        background-color: #fff;}
  }
 .news {
     .slick-dots{
@@ -142,4 +143,44 @@ header, .news {
         }
     }
 
+    & .slider{
+        & button{
+            color: transparent;
+        background-color: transparent;}
+    }
+    & .slick-prev, & .slick-next{
+        
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid grey;
+        z-index: 1;
+        border-radius: 50%;
+        background-image: url(../img/arrow.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all .25s ease-in;
+    }
+    & .slick-prev{
+        left: -3%;
+        transform: rotate(90deg);
+        transition: .3s ease-out;
+        &:hover{
+            transform: translateX(-5px) rotate(90deg);
+            border: 1px solid white;
+
+        }
+    }
+    & .slick-next{
+        right: -3%;
+        transform: rotate(-90deg);
+        transition: .3s ease-out;
+        &:hover{
+            transform: translateX(5px) rotate(-90deg);
+            border: 1px solid white;
+
+        }
+    }
 }

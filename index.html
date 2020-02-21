@@ -9,11 +9,11 @@
     <title>Exsam#2</title>
 </head>
 <body>    
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
-            <div class="top">
+            <nav class="top">
                 <div class="logo">
-                    <img class="logo__img" src="img/Logo.png" alt="Firm-logo">
+                    <a href="#home"><img class="logo__img" src="img/Logo.png" alt="Firm-logo"></a>
                 </div>
                 <nav class="nav">
                     <ul class="nav__list">
@@ -28,32 +28,35 @@
                     <div class="social__icon"><i class="fab fa-twitter"></i></div>
                     <div class="social__icon"><i class="fab fa-instagram"></i></div> 
                 </div>
-            </div >
+            </nav>
             <div class="slider cover hero" data-slick=
             '{"arrows" :false, "dots" : true, "infinite" : true, "autoplay" : true, "vertical": true}'
             >
-                <div class="slide hero">
+                <div class="slide">
                     <h1 class="hero__title">Simple & mordern</h1>
                     <h2 class="hero__subtitle">We make the world's beautiful every day</h2>
                 </div>
-                <div class="slide hero">
+                <div class="slide">
                     <h1 class="hero__title">Simple & mordern2</h1>
                     <h2 class="hero__subtitle">We make the world's beautiful every day</h2>
                 </div>
-                <div class="slide hero">
+                <div class="slide">
                     <h1 class="hero__title">Simple & mordern3</h1>
                     <h2 class="hero__subtitle">We make the world's beautiful every day</h2>
                 </div>
-                <div class="slide hero">
+                <div class="slide">
                     <h1 class="hero__title">Simple & mordern4</h1>
                     <h2 class="hero__subtitle">We make the world's beautiful every day</h2>
                 </div>
-                <div class="slide hero">
+                <div class="slide">
                     <h1 class="hero__title">Simple & mordern5</h1>
                     <h2 class="hero__subtitle">We make the world's beautiful every day</h2>
                 </div>
             </div>
-            <div class="scroll"></div>
+            <a href="#proj">
+                <div class="scroll">
+                </div>
+            </a>
         </div>
     </header>
     <section class="proj" id="proj">
@@ -64,17 +67,18 @@
             </div>
             <div class="proj__info">
                 <h5 class="proj__subtitle">One World</h5>
-                <h2 class="proj__title">Trade Center</h2>
-                <span class="proj__text">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</span>
-                <div><a href="#" class="btn">more details</a></div>
+                <h3 class="proj__title">Trade Center</h3>
+                <p class="proj__text">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+                <div>
+                    <a href="#" class="btn">more details</a></div>
                 <span class="proj__location"><i class="fas fa-map-marker-alt"></i> New York City, United States - 1776 feet</span>
             </div>
         </div>    
         <div class="container container--flex">
             <div class="proj__info">
                 <h5 class="proj__subtitle">International</h5>
-                <h2 class="proj__title">Commerce Centre</h2>
-                <span class="proj__text">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</span>
+                <h3 class="proj__title">Commerce Centre</h3>
+                <p class="proj__text">Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
                 <a href="#" class="btn">more details</a>
                 <span class="proj__location"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588 Feet</span>
             </div>
@@ -88,7 +92,7 @@
        <div class="container">
             <h2 class="section__title section__title--white">latest news</h2>
             <div class="slider cover" data-slick=
-            '{"arrows" :false, "dots" : true, "autoplay" : true, "slidesToShow": 3, "slidesToScroll": 1, "vertical": false}'>
+            '{"arrows" :true, "dots" : true, "autoplay" : true, "slidesToShow": 3, "slidesToScroll": 1, "vertical": false}'>
                 <a href="#" class="news__list slide">
                     <img src="img/hoverNews.png" alt="#newshover" class="news__hover">
                     <img src="img/news1.png" alt="#newsImg" class="news__img">
@@ -97,7 +101,7 @@
                         <p class="news__subtitle"> Free directories: directories are perfect for customers that are... </p>
                         <div class="news__author">
                             <img src="img/auth1.png" alt="Author foto" class="news__foto">
-                            <span href="#" class="news__name">Isaac Dunn</span>
+                            <span class="news__name">Isaac Dunn</span>
                             <span class="news__date">09 Feb 2017</span>
                         </div>
                     </div>
@@ -110,7 +114,7 @@
                         <p class="news__subtitle">Having a home based business is a wonderful asset to your life...</p>
                         <div class="news__author">
                             <img src="img/auth2.png" alt="Author foto" class="news__foto">
-                            <span href="#" class="news__name">Dominic Freeman</span>
+                            <span class="news__name">Dominic Freeman</span>
                             <span class="news__date">24 Apr 2017</span>
                         </div>
                     </div>
@@ -123,7 +127,7 @@
                         <p class="news__subtitle">There are many things that are important to catalog design....</p>
                         <div class="news__author">
                             <img src="img/auth3.png" alt="Author foto" class="news__foto">
-                            <span href="#" class="news__name">Alice Ward</span>
+                            <span class="news__name">Alice Ward</span>
                             <span class="news__date">30 Dec 2017</span>
                         </div>
                     </div>
@@ -136,7 +140,7 @@
                         <p class="news__subtitle">There are many things that are important to catalog design....</p>
                         <div class="news__author">
                             <img src="img/auth3.png" alt="Author foto" class="news__foto">
-                            <span href="#" class="news__name">Alice Ward</span>
+                            <span class="news__name">Alice Ward</span>
                             <span class="news__date">30 Dec 2017</span>
                         </div>
                     </div>
@@ -149,7 +153,7 @@
                         <p class="news__subtitle">There are many things that are important to catalog design....</p>
                         <div class="news__author">
                             <img src="img/auth3.png" alt="Author foto" class="news__foto">
-                            <span href="#" class="news__name">last Alice Ward</span>
+                            <span class="news__name">last Alice Ward</span>
                             <span class="news__date">30 Dec 2017</span>
                         </div>
                     </div>
@@ -160,28 +164,35 @@
 
     <section class="gallery"> 
         <h2 class="section__title">gallery</h2>
-        <div class="container container--flex">
-            <div class="gallery__block ">
+        <div id="grid" class="grid container">
+            <div class="grid__item">
                 <a href="#" class="gallery__link360">
-                    <img src="img/360.png" alt="Картинка галереги на 360" class="gallery__icon360">
+                    <img src="img/link360.png" alt="Картинка галереги на 360" class="gallery__icon360">
                 </a>
             </div>
-            <div class="gallery__block gallery__block--small">
+            <div class="grid__item">
                 <a href="#" class="gallery__foto">
                     <img src="img/gal1.png" alt="Картинки галерегии">
                 </a>
+            </div>
+            <div class="grid__item">
                 <a href="#" class="gallery__foto">
                     <img src="img/gal2.png" alt="Картинки галерегии">
                 </a>
+            </div>
+            <div class="grid__item">
                 <a href="#" class="gallery__foto">
                     <img src="img/gal3.png" alt="Картинки галерегии">
                 </a>
+            </div>
+            <div class="grid__item">
                 <a href="#" class="gallery__foto">
                     <img src="img/gal4.png" alt="Картинки галерегии">
                 </a>
             </div>
         </div>
-        <div class="container"><a href="#" class="btn gallery__btn">see more</a></div>
+        <a href="#" class="btn gallery__btn">see more</a>
+    
     </section>
     <footer>
         <section class="mapmap"> 
@@ -195,17 +206,17 @@
                     <div class="contact__items">
                         <ul>
                             <li class="contact__item"><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/search/Nolan+Extensions+Suite/@32.3032643,-100.5463752,11z">91 Nolan Extensions Suite 670</a></li>
-                            <li class="contact__item"><i class="fas fa-phone-alt"></i> <a href="tel:+001 356-868-2454">+001 356-868-2454</a></li>
+                            <li class="contact__item"><i class="fas fa-phone-alt"></i> <a href="tel:+0013568682454">+001-356-868-2454</a></li>
                             <li class="contact__item"><i class="fas fa-inbox"></i> <a href="mailto:gahuy93@gmail.com">gahuy93@gmail.com</a></li>
                             <li class="contact__item"><i class="far fa-clock"></i> From 07:05AM to 19:30PM</li>
                         </ul>
                     </div>
                     <div class="contact__users">
-                        <form>
-                            <input class="contact__input" placeholder="Your Name">
-                            <input class="contact__input" placeholder="Email">
+                        <form method="POST">
+                            <input class="contact__input" type="text" placeholder="Your Name">
+                            <input class="contact__input" type="text" placeholder="Email">
                         </form>
-                        <a href="#" class="btn contact__btn">submit</a>
+                        <button class="btn contact__btn" type="submit">submit</button>
                     </div>
                 </div>
             </section>
@@ -214,7 +225,7 @@
             <div class="container container--small">
                 <div class="firm__info">
                     <div class="logo">
-                        <img class="logo__img" src="img/Logo.png" alt="Firm-logo">
+                        <a href="#"><img class="logo__img" src="img/Logo.png" alt="Firm-logo"></a>
                     </div>
                     <div class="social">
                         <div class="social__icon"><i class="fab fa-facebook-f"></i></div>
@@ -224,7 +235,7 @@
                 </div>
                 <div class="firm__mader">
                     <span>Copyrights © 2017 Monticello Gro</span>
-                    <span>Made with <i class="fas fa-heart"></i> by Ga Huy</span>
+                    <span>Made with <i class="fas fa-heart"></i> by <a href="#home">Ga Huy</a> </span>
                 </div>
             </div>
         </section>
